@@ -1,0 +1,47 @@
+body{
+   background-image: url();
+}
+
+
+.title{
+    font-size: 500%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Licorice', cursive;
+    padding-bottom: 1%;    
+}
+
+.all-things {
+    display: flex;
+    justify-content: center;
+}
+
+.things{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 800px;
+    border: 1px solid black;
+    
+}
+
+.things > .my-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+ .img-div {
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.img-div a{
+    overflow: hidden;
+    color: aqua;
+    display: flex;
+    align-self: center;
+    position: absolute;
+    padding-left: 9%;
+    padding-top: 10%;
+    /* padding:300px 20px; */
+}

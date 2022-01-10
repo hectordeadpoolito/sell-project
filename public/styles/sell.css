@@ -1,0 +1,79 @@
+.title{
+    color:rgb(255, 253, 253);
+    font-size: 150%;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(../images/270926389_674117883968782_308313453578096290_n.jpg);
+    background-size: 71%;
+}
+
+.total{
+    background-image: url(../images/270926389_674117883968782_308313453578096290_n.jpg);
+    background-position-x: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.right img{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin:20px;
+    border:2px solid black;
+
+}
+
+
+
+.texto{
+    
+    position:absolute;
+    background: #098;
+}
+.texto p{
+    color:black;
+    font-size:90px;
+}
+.right img:hover .texto{
+    transition: .5s;
+    bottom:-70%;
+}
+
+
+.left img{
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    width: 200px;
+    margin:20px;
+    border:2px solid black;
+}
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(../images/270926389_674117883968782_308313453578096290_n.jpg);
+    background-position-x: -10%;
+    padding:2px;
+    border:2px solid black;
+}
+
+
+.flex-container img {
+    background-color: gainsboro;
+    width: 200px;
+    margin:90px;
+    border:2px solid black;
+    
+}
+
+
+.nav-link2{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
