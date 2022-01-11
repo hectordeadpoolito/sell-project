@@ -1,13 +1,17 @@
 body{
-   background-image: url();
+   background-image: url(../images/gangsta\ \(2\).jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 
 .title{
+    padding-right: 15%;
+    color: azure;
     font-size: 500%;
     display: flex;
     justify-content: center;
-    font-family: 'Licorice', cursive;
+    font-family: 'Chakra Petch', sans-serif;
     padding-bottom: 1%;    
 }
 
@@ -17,11 +21,14 @@ body{
 }
 
 .things{
+    background-image: url(../images/white.jpg);
+    background-size: 30%;
     padding-left: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
     width: 800px;
     border: 1px solid black;
+    border-radius: 10%;
     
 }
 

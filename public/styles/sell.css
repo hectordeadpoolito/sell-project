@@ -7,6 +7,11 @@
     text-align: center;
     background-image: url(../images/270926389_674117883968782_308313453578096290_n.jpg);
     background-size: 71%;
+    
+}
+
+.side-title i {
+    transform: rotate(234deg);
 }
 
 .total{
@@ -14,6 +19,7 @@
     background-position-x: 40%;
     display: flex;
     justify-content: center;
+    
 }
 
 
@@ -76,4 +82,15 @@
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
+}
+
+.right a{
+    overflow: hidden;
+    color: aqua;
+    display: flex;
+    position: absolute;
+    padding-left: 9%;
+    
+    /* padding-top: 10%; */
+    /* padding:300px 20px; */
 }
