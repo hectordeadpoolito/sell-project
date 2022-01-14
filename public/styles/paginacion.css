@@ -21,4 +21,5 @@
 
 .paginacion ul li .active{
     background:#037e8c;
+    font-weight: bold;
 }

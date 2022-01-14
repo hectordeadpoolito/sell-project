@@ -1,5 +1,5 @@
 body{
-   background-image: url(../images/gangsta\ \(2\).jpg);
+   background-image: url(../images/blanket-4.jpg);
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -43,12 +43,31 @@ body{
 }
 
 .img-div a{
-    overflow: hidden;
-    color: aqua;
+    font-family: 'Lobster', cursive;
+    color: rgba(255, 255, 255, 0.049);
+    /* background-color: rgba(0, 255, 255, 0.357); */
     display: flex;
     align-self: center;
     position: absolute;
-    padding-left: 9%;
-    padding-top: 10%;
-    /* padding:300px 20px; */
+    padding-right:16%;
+    padding-top: 13%;
+    
+    
+}
+
+.things-name{
+    display: flex;
+    font-family: 'Neonderthaw', cursive;
+    background-color: gold;
+    position:absolute;
+    margin-top: 1%;
+
+}
+.price{
+    display: flex;
+    font-family: 'Neonderthaw', cursive;
+    background-color: gold;
+    position: absolute;
+    margin-left: 19%;
+    margin-top:12%;
 }

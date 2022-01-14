@@ -1,0 +1,58 @@
+.inside-cage{
+    border: 2px solid ;
+    margin-top: 10%;
+}
+
+.the-img img{
+    width: 150px;
+}
+
+.information{
+    display: flex;
+    margin-left: 21%;
+   
+    
+}
+.cage h1{
+    margin-left: 50%;
+    color: rgb(211, 186, 0);
+    font-family: fantasy;
+}
+body{
+    background-image: url(../images/blanket-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.cage{
+    padding-left: 20%;
+    padding-right: 10%;
+}
+.correo{
+    position: absolute;
+    margin-left: 11%;
+
+}
+.sub-title{
+    color: gray;
+}
+.correo h3{
+    position: absolute;
+    margin-left: 11%;
+}
+
+.inside-cage{
+    background-color: rgba(255, 255, 255, 0.748);
+}
+.phone-number {
+    position: absolute;
+    margin-left: 11%;
+    margin-top: 5%;
+}
+.phone-number i{
+    color: rgb(38, 51, 51);
+}
+.location{
+    position: absolute;
+    margin-left: 11%;
+    margin-top: 10%;
+}
